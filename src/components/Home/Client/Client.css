@@ -1,0 +1,50 @@
+
+.section-padding{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.client-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 70px;
+   
+
+}
+
+.client-title span{
+    color: rgb(87, 197, 182);
+}
+
+
+.clients-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 0 -15px;
+    padding: 25px;
+    padding-bottom: 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 25px;
+    list-style: none;
+  }
+  
+  .clients-item {
+    min-width: 20%;
+    scroll-snap-align: start;
+  }
+  
+  .clients-item img {
+   height: 60px;
+    filter: grayscale(1);
+    transition: var(--transition-1);
+  }
+  
+  .clients-item img:hover {
+    filter: grayscale(0);
+  }

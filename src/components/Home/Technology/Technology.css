@@ -1,0 +1,54 @@
+.tech-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 70px;
+   
+}
+.tech-title span{
+    color: rgb(87, 197, 182);
+}
+
+.technology{
+    background-color:#fafcff;
+    padding-bottom: 30px;
+}
+
+.technology-item-box {
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(87, 197, 182, 0.2);
+    padding: 40px;
+   
+    
+  }
+
+.technology-box {
+    position: relative;
+    background: var(--border-gradient-onyxtwo);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .technology-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .technology-item {
+    flex-basis: 20%; /* Adjust this value to control the width of each logo item */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .technology-item img {
+    max-width: 85%;
+  height: auto;
+  }
+  

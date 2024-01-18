@@ -1,0 +1,71 @@
+.btn-brand{
+    background: #002B5B;
+    border: 0px;
+    border-radius: 5px;
+    color: white !important;
+    padding: 10px 20px !important;
+    font-weight: 500;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    margin-top:20px;
+}
+.navbar-scroll {
+    margin-top:20px;
+    background-color: #002B5B; 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+   
+}
+.navbar-nav a{
+    color: #474747;
+    padding: 10px 20px !important;
+}
+
+.users{
+    font-weight: bold;
+    color: #111430;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+
+.navbar-brand .img-fluid {
+    width: 150px;
+    height: auto;
+}
+
+
+.nav-link-line {
+    position: relative;
+}
+
+.nav-link-line::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff; /* Change this to the desired underline color */
+    transition: width 0.7s ease;
+}
+
+
+.nav-link-line:hover::after {
+    width: 100%;
+}
+

@@ -1,0 +1,122 @@
+.about-page {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fafcff;
+
+  }
+
+
+  
+  .about-members-boxes {
+    z-index: 0;
+    width: 100%;
+   transform: translateY(-22%);
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 80px;
+    box-shadow: 0 2px 4px rgba(87, 197, 182, 0.2);
+    opacity: 0;
+    transition: opacity 3s;
+  }
+
+  
+  .about-members-boxes.show {
+    opacity: 1;
+  }
+
+  .about-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 70px;
+    
+    
+}
+.about-title span{
+    color: #57c5b6;
+    
+}
+
+.about-description {
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 35px;
+  text-align: justify;
+  grid-column: 1 / 2; /* Description takes the first column */
+}
+
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-sized columns */
+  grid-gap: 20px; /* Add gap between columns */
+  padding-bottom: 90px;
+}
+
+
+
+.about-image-container {
+  grid-column: 2 / 3; /* Image container takes the second column */
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 450px;
+}
+
+
+
+.VissionMission {
+  margin-right: 20px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.VissionMission-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  
+  
+}
+
+.VissionMission-item {
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(87, 197, 182, 0.2);
+  padding: 35px;
+  border: 1px solid #57c5b6;
+ 
+  
+}
+
+
+
+
+
+.VissionMission-icon-box {
+  margin-right: 20px;
+}
+
+.VissionMission-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.VissionMission-item-text {
+  font-size: 12px;
+  color: #555;
+  line-height: 20px;
+  text-align: justify;
+}

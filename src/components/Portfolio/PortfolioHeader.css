@@ -1,0 +1,27 @@
+.team-wrapper{
+    height: 450px;
+    background: url('../../images/galaxy4.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+   
+}
+
+
+.team-wrapper h1 {
+    color: white;
+    font-size: 60px;
+    
+}
+
+
+
+@media (max-width: 991px) {
+    .team-wrapper {
+        height: 100%; 
+        padding-bottom: 60px;
+    }
+}

@@ -1,0 +1,30 @@
+.about-wrapper{
+    height: 450px;
+    background: url('../../images/galaxy4.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.about-wrapper h1 {
+    color: white;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .about-wrapper {
+        height: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding-bottom: 60px;
+    }
+}
